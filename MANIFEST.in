@@ -1,1 +1,4 @@
 include README.markdown
+include LICENSE
+include requirements.txt
+recursive-include datapusher *.py
