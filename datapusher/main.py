@@ -2,7 +2,7 @@ import os
 import ckanserviceprovider.web as web
 
 from datapusher import jobs
-from config import Config
+from config import Config as config
 
 # check whether jobs have been imported properly
 assert jobs.push_to_datastore
