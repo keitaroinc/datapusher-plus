@@ -1,1 +1,6 @@
 semver==2.13.0
+werkzeug==2.0.3
+markupsafe==2.0.1
+datasize==1.0.0
+python-dotenv==1.0.0
+ckanserviceprovider==1.1.0

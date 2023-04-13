@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 env_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
 load_dotenv(env_file)
 
-_DATABASE_URI = "postgresql://ckan_default:pass@localhost/ckan_default"
-_WRITE_ENGINE_URL = "postgresql://datapusher:YOURPASSWORD@localhost/datastore_default"
+_DATABASE_URI = "postgresql://ckan_default:pass@localhost/datastore_dp_plus"
+_WRITE_ENGINE_URL = "postgresql://ckan_default:pass@localhost/datastore_dp_plus"
 _TYPES = "String", "Float", "Integer", "DateTime", "Date", "NULL"
 _TYPE_MAPPING = {
     "String": "text",
